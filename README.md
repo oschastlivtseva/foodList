@@ -6,4 +6,4 @@ This is a simple app with poor usability that can create list with food from you
 You can add, change, delete and toggle food items in your list.  
 Oh, and you also can lose all your progress by reloading the page.  
 Enjoy!  
-![Test image](http://prntscr.com/v05yug)
+![Image](https://image.prntscr.com/image/uTUZyfDcSum3xkQBf_yDRw.png)
