@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FoodList</title>
+    <style>
+        h1 {
+            color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+<h1>FOOD LIST</h1>
+<p>Refrigerator's opening is in progress. Please wait for our Food Operator to respond . . .</p>
+
+<div>
+    <button onclick="eventsHandler.addFoodButton()">Add new food</button>
+    <input id="addFoodTextInput" type="text" placeholder="Food name">
+    <style>
+        input {
+            color: purple;
+        }
+    </style>
+</div>
+
+<p></p>
+
+<div>
+    <button onclick="eventsHandler.replaceFoodButton()">Replace Food</button>
+    <input id="positionOfReplacedFoodInput" type="number" placeholder="Position of food" title="Starting at 0">
+    <input id="newFoodNameInput" type="text" placeholder="New food name">
+</div>
+
+<p></p>
+
+<div>
+    <button onclick="eventsHandler.toggleFoodItemButton()">Toggle food item</button>
+    <input id="positionOfToggledFoodInput" type="number" placeholder="Position of food" title="Starting at 0">
+</div>
+
+<p></p>
+
+<div>
+    <button onclick="eventsHandler.toggleAllFoodButton()">Toggle all food</button>
+</div>
+
+<ul>
+</ul>
+
+<script src="foodList.js">
+</script>
+</body>
+</html>
